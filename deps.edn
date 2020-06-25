@@ -2,7 +2,8 @@
  :deps
  {org.clojure/clojurescript {:mvn/version "1.10.520"},
   com.atomist/api-cljs {:mvn/version "0.4.46"},
-  rewrite-cljs {:mvn/version "0.4.4"}},
+  rewrite-cljc {:git/url "https://github.com/lread/rewrite-cljc-playground.git"
+                :sha "4c22974df4b0cde77a92e0eede4488be28da5e33"}},
  :aliases
  {:dev
   {:extra-deps

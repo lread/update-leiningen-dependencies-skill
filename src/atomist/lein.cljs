@@ -1,5 +1,5 @@
 (ns atomist.lein
-  (:require [rewrite-clj.zip :as z]
+  (:require [rewrite-cljc.zip :as z]
             [cljs-node-io.core :refer [slurp]]
             [goog.crypt :as crypt]
             [cljs.reader :refer [read-string]]
